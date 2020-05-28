@@ -1,0 +1,3 @@
+C:/Users/hamma/OneDrive/Desktop/prime/build2/CMakeFiles/prime.dir
+C:/Users/hamma/OneDrive/Desktop/prime/build2/CMakeFiles/ALL_BUILD.dir
+C:/Users/hamma/OneDrive/Desktop/prime/build2/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^C:\USERS\HAMMA\ONEDRIVE\DESKTOP\PRIME\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/hamma/OneDrive/Desktop/prime -BC:/Users/hamma/OneDrive/Desktop/prime/build2 --check-stamp-file C:/Users/hamma/OneDrive/Desktop/prime/build2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
